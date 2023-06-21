@@ -15,4 +15,8 @@ View:
 ViewModel:
 -Controller.java
 -Handler.java
-Kemudian Synchronization.java diluar fille model/view/viewModel
+Kemudian Synchronization.java diluar file model/view/viewModel
+
+## Perbedaan Struktur File TMD dan LP
+
+Perbedaannya hanya terletak di file Game.java dan GameInterface.java. Pada TMD, file Game.java saya letakkan di viewModel dan GameInterface.java tidak saya implementasikan karena methodnya sudah saya masukkan deklarasinya ke file GameObject.java dan Handler.java
